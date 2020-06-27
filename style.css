@@ -1,0 +1,202 @@
+
+
+
+
+.btn {
+  font-size: 2vmin;
+}
+
+
+
+#heRow {
+  position: relative;
+  text-align: center;
+  background-image: url("/src/assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#logo {
+  padding-left: 6rem;
+  z-index: 11;
+  width: 300px;
+  height: 150px;
+  position: fixed;
+}
+
+#welcome {
+  padding-top: 20vw;
+  padding-bottom: 20vw;
+}
+
+#welNoFill {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 8vmin;
+  font-family: "Open Sans", sans-serif;
+}
+
+#welRooster {
+  font-size: 7vmin;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+
+#heroButt {
+  background-color: purple;
+}
+
+#climbRow {
+  overflow: hidden;
+  word-wrap: break-word;
+  min-height: fit-content;
+}
+
+#climbLorem {
+  padding-left: 15vw;
+  padding-top: 5vw;
+  padding-right: 10vw;
+}
+
+#climbLoremP {
+  text-align: left;
+  font-size: calc(1vw + 1px);
+  font-family: "Open Sans", sans-serif;
+}
+
+#climbLoremPic {
+  width: 50vw;
+  background: #000;
+}
+
+#momRow {
+  background-image: url("/src/assets/banner-1.jpg");
+  position: relative;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#momem {
+  padding-left: 15vmin;
+
+  padding-top: 15vw;
+  padding-bottom: 20vw;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: calc(1vw + 1px);
+}
+
+#momButt {
+  background: orange;
+}
+
+#svgDiv {
+  background: #000;
+}
+
+#iconLorem {
+  padding-left: 15vw;
+  padding-top: 10vw;
+  padding-right: 10vw;
+}
+
+#iconLoremP {
+  text-align: left;
+  font-size: calc(1vw + 1px);
+  font-family: "Open Sans", sans-serif;
+}
+
+#svgDiv {
+  align-items: center;
+  text-align: center;
+  padding-top: 10vmin;
+
+  background: whitesmoke;
+}
+
+#svgDiv > div {
+  height: 75%;
+  width: 50%;
+}
+
+.circle {
+  height: 45%;
+  border: 0.2px solid purple;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+}
+
+#kidRow {
+  background-image: url("/src/assets/banner-2.jpg");
+  position: relative;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#kidRem {
+  padding-left: 55vw;
+  padding-right: 15vw;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: calc(1vw + 1px);
+}
+
+#kidButt {
+  background: orange;
+}
+
+.checked {
+  color: orange;
+}
+
+.carousel {
+  text-emphasis-color: black;
+}
+
+
+#ratingStars {
+  text-align: center;
+  padding-top: 5vw;
+}
+
+
+.carousel-captionh5 {
+  font-size: 2.5vmin;
+  padding: 2rem;
+  -webkit-text-stroke: .3px white;
+color: purple;
+font-family: "Open Sans", sans-serif;
+}
+
+.carousel-captionP {
+    font-family: "Open Sans", sans-serif;
+  padding-bottom: 1vw;
+  font-size: 1.5vmin;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  bottom: 0;
+  position: relative;
+  height: 5vw;
+  background: whitesmoke;
+  ;
+}
+
+footer > img {
+  height: 75%;
+}
