@@ -11,7 +11,7 @@
 #heRow {
   position: relative;
   text-align: center;
-  background-image: url("hero.jpg");
+  background-image: url("./src/assets/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
