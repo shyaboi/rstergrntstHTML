@@ -1,5 +1,3 @@
-
-
 /* all button sizing  */
 
 .btn {
@@ -61,6 +59,7 @@
 /* cilimber and lorem paragraph */
 #climbRow {
   overflow: hidden;
+  word-wrap: break-word;
   min-height: fit-content;
 }
 
@@ -200,11 +199,14 @@ font-family: "Open Sans", sans-serif;
   align-items: center;
   position: relative;
   width: 102%;
-  height: 100px;
+  height: 10vw;
   background: whitesmoke;
   
 }
 
+#footer > img {
+  height: 50%;
+}
 
 a{
   color: #623576;
