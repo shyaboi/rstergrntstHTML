@@ -17,6 +17,10 @@
 
 /* top banner "heRow" */
 #heRow {
+  animation-name: fadeInHero;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
   position: relative;
   text-align: center;
   background-image: url("./src/assets/hero.jpg");
@@ -24,7 +28,15 @@
   background-size: cover;
   overflow: hidden;
 }
+@keyframes fadeInHero {
+  0% {
+    opacity: 0;
+  }
 
+  100% {
+    opacity: 1;
+  }
+}
 /* welcom text in heRow */
 #welcome {
   padding-top: 20vw;
@@ -127,9 +139,21 @@
   background: whitesmoke;
 }
 
-#svgDiv > div {
-  height: 75%;
-  width: 50%;
+#svgDiv>div {
+  padding: 3vw;
+  font-size: 1.5vw;
+  animation: bounce 15s infinite alternate;
+  width: 60%;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(-5vw);
+  }
+
+  to {
+    transform: translateY(3vw);
+  }
 }
 
 .circle {
@@ -163,7 +187,7 @@
   background: #FF7218;
 }
 
-#ratingRow{
+#ratingRow {
   width: 98vw;
   overflow: hidden;
   word-wrap: break-word;
@@ -181,16 +205,18 @@
   padding-top: 5vw;
 }
 
-#carouselExampleCaptions{background: whitesmoke;}
+#carouselExampleCaptions {
+  background: whitesmoke;
+}
 
 .carousel-captionh5 {
   font-size: 2.5vw;
-color: #613475;
-font-family: "Open Sans", sans-serif;
+  color: #613475;
+  font-family: "Open Sans", sans-serif;
 }
 
 .carousel-captionP {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5vw;
 }
 
@@ -201,13 +227,13 @@ font-family: "Open Sans", sans-serif;
   width: 102%;
   height: 10vw;
   background: whitesmoke;
-  
+
 }
 
-#footer > img {
+#footer>img {
   height: 50%;
 }
 
-a{
+a {
   color: #623576;
 }
