@@ -28,6 +28,7 @@
   background-size: cover;
   overflow: hidden;
 }
+/* hero fade in animation */
 @keyframes fadeInHero {
   0% {
     opacity: 0;
@@ -37,6 +38,7 @@
     opacity: 1;
   }
 }
+
 /* welcom text in heRow */
 #welcome {
   padding-top: 20vw;
@@ -64,7 +66,7 @@
 
 /* button in heRow div */
 #heroButt {
-  padding: .8rem;
+  padding: 1vw;
   background-color: #AC5FD1;
 }
 
@@ -74,12 +76,13 @@
   word-wrap: break-word;
   min-height: fit-content;
 }
-
+/* climber lorem div  */
 #climbLorem {
   padding-left: 15vw;
   padding-top: 5vw;
   padding-right: 10vw;
 }
+/* climber lorem div paragraph */
 
 #climbLoremP {
   text-align: left;
@@ -87,11 +90,11 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/* right col-6 of climber row full climber photo */
 #climbLoremPic {
   width: 50vw;
-  background: #000;
 }
-
+/* mom banner row with button */
 #momRow {
   background-image: url("./src/assets/banner-1.jpg");
   position: relative;
@@ -101,6 +104,7 @@
   overflow: hidden;
 }
 
+/* mom row lorem button div */
 #momem {
   padding-left: 15vmin;
 
@@ -110,26 +114,27 @@
   color: white;
   font-size: calc(1vw + 1px);
 }
-
+/* mom row button */
 #momButt {
+  padding: 1vw;
   background: #FF7218;
 }
+/* icon row lorem div */
 
-#svgDiv {
-  background: #000;
-}
 
 #iconLorem {
   padding-left: 15vw;
   padding-top: 10vw;
   padding-right: 10vw;
 }
-
+/* icon row left col-6 paragraph */
 #iconLoremP {
   text-align: left;
   font-size: calc(1vw + 1px);
   font-family: "Open Sans", sans-serif;
 }
+
+/* icon row right col-6 icon group with animation */
 
 #svgDiv {
   align-items: center;
@@ -139,13 +144,14 @@
   background: whitesmoke;
 }
 
+/* icon group child divs */
 #svgDiv>div {
   padding: 3vw;
   font-size: 1.5vw;
   animation: bounce 15s infinite alternate;
   width: 60%;
 }
-
+/* icon with div animation */
 @keyframes bounce {
   from {
     transform: translateY(-5vw);
@@ -155,7 +161,7 @@
     transform: translateY(3vw);
   }
 }
-
+/* circle boarder for icons */
 .circle {
   height: 45%;
   border: 0.2px solid #C48EDB;
@@ -163,7 +169,7 @@
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
 }
-
+/* kid lorem and button row */
 #kidRow {
   background-image: url("./src/assets/banner-2.jpg");
   position: relative;
@@ -172,7 +178,7 @@
   background-size: cover;
   overflow: hidden;
 }
-
+/* kid row lorem p div */
 #kidRem {
   padding-left: 55vw;
   padding-right: 15vw;
@@ -182,44 +188,46 @@
   color: black;
   font-size: calc(1vw + 1px);
 }
-
+/* kid row button */
 #kidButt {
+  padding: 1vw;
   background: #FF7218;
 }
-
+/* rating row with carousel and rating star section */
 #ratingRow {
   width: 98vw;
   overflow: hidden;
   word-wrap: break-word;
   min-height: fit-content;
 }
-
+/* checked star spon */
 .checked {
   color: #FF7218;
 }
 
 
-
+/* rating row stars left col-6 div */
 #ratingStars {
   text-align: center;
   padding-top: 5vw;
 }
-
+/* rating row right col-6 div */
 #carouselExampleCaptions {
   background: whitesmoke;
 }
-
+/* review carousel name and date */
 .carousel-captionh5 {
   font-size: 2.5vw;
   color: #613475;
   font-family: "Open Sans", sans-serif;
 }
+/* review carousel paragraph */
 
 .carousel-captionP {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5vw;
 }
-
+/* footer with text and social link imgs */
 #footer {
   text-align: center;
   align-items: center;
@@ -229,11 +237,11 @@
   background: whitesmoke;
 
 }
-
+/* footer img resize */
 #footer>img {
   height: 50%;
 }
-
+/* global link colour change */
 a {
   color: #623576;
 }
