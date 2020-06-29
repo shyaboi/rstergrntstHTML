@@ -237,11 +237,11 @@
   background: whitesmoke;
 
 }
-/* footer img resize */
+/* footer */
 #footer>img {
   height: 50%;
 }
-/* global link colour change */
+
 a {
   color: #623576;
 }
